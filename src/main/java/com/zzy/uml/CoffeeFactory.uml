@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zzy.factoryPattern.factoryMethod.AmericanCoffeeFactory</OriginalElement>
+  <nodes>
+    <node x="193.0" y="145.0">com.zzy.factoryPattern.entity.AmericanCoffee</node>
+    <node x="0.0" y="438.0">com.zzy.factoryPattern.factoryMethod.CoffeeStore</node>
+    <node x="110.0" y="241.0">com.zzy.factoryPattern.factoryMethod.CoffeeFactory</node>
+    <node x="96.5" y="0.0">com.zzy.factoryPattern.entity.Coffee</node>
+    <node x="0.0" y="145.0">com.zzy.factoryPattern.entity.LatteCoffee</node>
+    <node x="220.0" y="342.0">com.zzy.factoryPattern.factoryMethod.AmericanCoffeeFactory</node>
+    <node x="0.0" y="342.0">com.zzy.factoryPattern.factoryMethod.LatteCoffeeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zzy.factoryPattern.factoryMethod.AmericanCoffeeFactory" target="com.zzy.factoryPattern.factoryMethod.CoffeeFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="320.0" y="317.0" />
+      <point x="260.0" y="317.0" />
+      <point x="50.0" y="25.5" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.entity.LatteCoffee" target="com.zzy.factoryPattern.entity.Coffee">
+      <point x="0.0" y="-25.5" />
+      <point x="86.5" y="120.0" />
+      <point x="139.75" y="120.0" />
+      <point x="-43.25" y="47.5" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.entity.AmericanCoffee" target="com.zzy.factoryPattern.entity.Coffee">
+      <point x="0.0" y="-25.5" />
+      <point x="279.5" y="120.0" />
+      <point x="226.25" y="120.0" />
+      <point x="43.25" y="47.5" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.factoryMethod.LatteCoffeeFactory" target="com.zzy.factoryPattern.factoryMethod.CoffeeFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="100.0" y="317.0" />
+      <point x="160.0" y="317.0" />
+      <point x="-50.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="210.0" y="268.0" />
+  <SelectedNodes>
+    <node>com.zzy.factoryPattern.factoryMethod.AmericanCoffeeFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
