@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zzy.factoryPattern.simpleFactory.SimpleCoffeeFactory</OriginalElement>
+  <nodes>
+    <node x="147.0" y="146.0">com.zzy.factoryPattern.entity.AmericanCoffee</node>
+    <node x="150.94270833333337" y="348.0">com.zzy.factoryPattern.simpleFactory.CoffeeStore</node>
+    <node x="190.05729166666669" y="0.0">com.zzy.factoryPattern.entity.Coffee</node>
+    <node x="92.984375" y="247.0">com.zzy.factoryPattern.simpleFactory.SimpleCoffeeFactory</node>
+    <node x="0.0" y="146.0">com.zzy.factoryPattern.entity.LatteCoffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zzy.factoryPattern.simpleFactory.SimpleCoffeeFactory" target="com.zzy.factoryPattern.entity.Coffee">
+      <point x="79.0" y="-25.5" />
+      <point x="290.484375" y="222.0" />
+      <point x="320.8541666666667" y="222.0" />
+      <point x="320.8541666666667" y="121.0" />
+      <point x="293.1822916666667" y="121.0" />
+      <point x="20.625" y="48.0" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.simpleFactory.CoffeeStore" target="com.zzy.factoryPattern.simpleFactory.SimpleCoffeeFactory">
+      <point x="-77.33333333333331" y="-36.5" />
+      <point x="189.60937500000006" y="323.0" />
+      <point x="152.234375" y="323.0" />
+      <point x="-59.25" y="25.5" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.entity.LatteCoffee" target="com.zzy.factoryPattern.entity.Coffee">
+      <point x="0.0" y="-25.5" />
+      <point x="63.5" y="121.0" />
+      <point x="210.68229166666669" y="121.0" />
+      <point x="-61.875" y="48.0" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.entity.AmericanCoffee" target="com.zzy.factoryPattern.entity.Coffee">
+      <point x="0.0" y="-25.5" />
+      <point x="221.0" y="121.0" />
+      <point x="251.93229166666669" y="121.0" />
+      <point x="-20.625" y="48.0" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.simpleFactory.CoffeeStore" target="com.zzy.factoryPattern.entity.Coffee">
+      <point x="77.33333333333331" y="-36.5" />
+      <point x="344.2760416666667" y="323.0" />
+      <point x="345.3072916666667" y="323.0" />
+      <point x="345.3072916666667" y="121.0" />
+      <point x="334.4322916666667" y="121.0" />
+      <point x="61.875" y="48.0" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.simpleFactory.SimpleCoffeeFactory" target="com.zzy.factoryPattern.entity.LatteCoffee">
+      <point x="-79.0" y="-25.5" />
+      <point x="132.484375" y="222.0" />
+      <point x="63.5" y="222.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.zzy.factoryPattern.simpleFactory.SimpleCoffeeFactory" target="com.zzy.factoryPattern.entity.AmericanCoffee">
+      <point x="0.0" y="-25.5" />
+      <point x="211.484375" y="222.0" />
+      <point x="221.0" y="222.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="147.49999999999997" y="205.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
